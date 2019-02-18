@@ -61,6 +61,9 @@ dependencies {
 
 }
 
+srcCompat = JavaVersion.VERSION_1_8
+targetCompat = JavaVersion.VERSION_1_8
+
 processResources
 {
     // this will ensure that this task is redone when the versions change.
