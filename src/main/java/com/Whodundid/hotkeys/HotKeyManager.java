@@ -234,12 +234,12 @@ public class HotKeyManager extends SubMod {
 						
 						boolean mcCtrl = GuiScreen.isCtrlKeyDown();
 						
-						if (mcCtrl && mc.gameSettings.keyBindForward.isPressed()) { KeyBinding.setKeyBindState(mc.gameSettings.keyBindForward.getKeyCode(), false); }
-						if (mcCtrl && mc.gameSettings.keyBindLeft.isPressed()) { KeyBinding.setKeyBindState(mc.gameSettings.keyBindLeft.getKeyCode(), false); }
-						if (mcCtrl && mc.gameSettings.keyBindBack.isPressed()) { KeyBinding.setKeyBindState(mc.gameSettings.keyBindBack.getKeyCode(), false); }
-						if (mcCtrl && mc.gameSettings.keyBindRight.isPressed()) { KeyBinding.setKeyBindState(mc.gameSettings.keyBindRight.getKeyCode(), false); }
-						if (mcCtrl && mc.gameSettings.keyBindJump.isPressed()) { KeyBinding.setKeyBindState(mc.gameSettings.keyBindJump.getKeyCode(), false); }
-						if (mcCtrl && mc.gameSettings.keyBindSneak.isPressed()) { KeyBinding.setKeyBindState(mc.gameSettings.keyBindSneak.getKeyCode(), false); }
+						//if (mcCtrl && mc.gameSettings.keyBindForward.isPressed()) { KeyBinding.setKeyBindState(mc.gameSettings.keyBindForward.getKeyCode(), false); }
+						//if (mcCtrl && mc.gameSettings.keyBindLeft.isPressed()) { KeyBinding.setKeyBindState(mc.gameSettings.keyBindLeft.getKeyCode(), false); }
+						//if (mcCtrl && mc.gameSettings.keyBindBack.isPressed()) { KeyBinding.setKeyBindState(mc.gameSettings.keyBindBack.getKeyCode(), false); }
+						//if (mcCtrl && mc.gameSettings.keyBindRight.isPressed()) { KeyBinding.setKeyBindState(mc.gameSettings.keyBindRight.getKeyCode(), false); }
+						//if (mcCtrl && mc.gameSettings.keyBindJump.isPressed()) { KeyBinding.setKeyBindState(mc.gameSettings.keyBindJump.getKeyCode(), false); }
+						//if (mcCtrl && mc.gameSettings.keyBindSneak.isPressed()) { KeyBinding.setKeyBindState(mc.gameSettings.keyBindSneak.getKeyCode(), false); }
 						
 						//control keys
 						if (Minecraft.isRunningOnMac) {
