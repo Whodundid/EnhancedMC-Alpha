@@ -40,7 +40,7 @@ import org.lwjgl.input.Keyboard;
 @Mod(modid = MainMod.MODID, version = MainMod.VERSION, name = MainMod.NAME)
 public class MainMod {
 	public static final String MODID = "enhancedmc";
-	public static final String VERSION = "alpha_1.0";
+	public static final String VERSION = "alpha_1.0.1";
 	public static final String NAME = "EnhancedMC";
 	public static final Minecraft mc = Minecraft.getMinecraft();
 	public static final KeyBinding openSettingsGui = new KeyBinding("Opens the global mod settings gui", Keyboard.KEY_P, "MainMod");
