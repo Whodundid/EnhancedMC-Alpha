@@ -302,7 +302,7 @@ public class HotKeyListGui extends EnhancedGui {
 				
 				if (keyIn.getKeyCategory() != null) {
 					String catName = keyIn.getKeyCategory().getCategoryName();
-					if (!catName.equals("null") && !catName.equals("none")) {
+					if (catName != null && !catName.equals("null") && !catName.equals("none")) {
 						hasCategory = true;
 						keyCategory = keyIn.getKeyCategory().getCategoryName();
 					}
@@ -345,6 +345,7 @@ public class HotKeyListGui extends EnhancedGui {
 		msgBox.setDisplayString("Load");
 		msgBox.setMessage("Success! Hotkeys reloaded.").setMessageColor(0x55ff55);
 		guiInstance.addObject(msgBox);
+		buildKeyList();
 	}
 	
 	public void saveKeys() {
@@ -366,6 +367,7 @@ public class HotKeyListGui extends EnhancedGui {
 					msgBox.setDisplayString("HotKey Reset");
 					msgBox.setMessage("Success! All user hotkeys have been deleted.").setMessageColor(0x55ff55);
 					guiInstance.addObject(msgBox);
+					buildKeyList();
 				}
 				if (object == no) { this.close(); }
 			}
